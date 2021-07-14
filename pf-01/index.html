@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Love Bird </title>
+    <!-- link (enter) -->
+    <!-- / -> 폴더 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+   
+    <link rel="shoutcut icon" href="images/fv3.png">
+   
+    <script src="script/jquery-1.11.3.js"></script>
+    <script src="script/jquery.innerfade.js"></script>
+    <script>
+        // 페이드인아웃 - 플러그인
+        $(function(){
+            $('.inner-fade').innerfade({
+                animationtype:'fade',
+                timeout:2000
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- #wrap>header+section.me+section.photo+footer -->
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <!-- .logo+.menu (enter) -->
+            <div class="logo">
+                <!-- a{ANSEON} -->
+                <a href="index.html">
+                    <img src="images/logo.png" alt="로고">
+                    <p>Love Bird</p>
+                </a>
+            </div>
+            <div class="menu">
+                <!-- ul>li*6>a{menu} (enter)-->
+                <ul>
+                    <li><a href="#">모란앵무</a></li>
+                    <li><a href="#">앵무새용품</a></li> 
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">이벤트</a></li> 
+                    <li><a href="#">커뮤니티</a></li> 
+                   
+             
+                </ul>
+            </div>
+        </header>
+
+        <section class="me">
+            <h1 class="blind">슬라이드</h1>
+          <ul class="inner-fade">
+              <li><a href=""><img src="images/slider.jpg" alt="모란앵무1"></a></li>
+              <li><a href=""><img src="images/slider2.jpg" alt="모란앵무2"></a></li>
+              <li><a href=""><img src="images/slider3.jpg" alt="모란앵무3"></a></li>
+          </ul>
+        </section> 
+        <section class="info">
+            <!-- .notice+.banner -->
+            <div class="notice">
+                <h1>공지사항</h1>
+                <!-- ul>li>span.t+a+span -->
+                <ul>
+                    <li><span class="a1">[이벤트]</span><a href="#"> 앵무새 모이 최대 50% 할인 혜택 받으세요! </a><span>21-03-16</span></li>
+                    <li><span class="a2">[공지]</span><a href="#"> 앵무새 키울 때 주의사항 </a><span>21-03-16</span></li>
+                    <li><span class="a3">[이벤트]</span><a href="#"> 앵무새 모이 최대 50% 할인 혜택 받으세요!</a><span>21-03-16</span></li>
+                    <li><span class="a2">[공지]</span><a href="#"> 앵무새 키울 때 주의사항 </a><span>21-03-16</span></li>
+                    <li><span class="a1">[이벤트]</span><a href="#"> 앵무새 모이 최대 50% 할인 혜택 받으세요! </a><span>21-03-16</span></li>
+                    <li><span class="a2">[공지]</span><a href="#"> 앵무새 키울 때 주의사항 </a><span>21-03-16</span></li>
+                    <li><span class="a3">[이벤트]</span><a href="#"> 앵무새 모이 최대 50% 할인 혜택 받으세요!</a><span>21-03-16</span></li>
+
+                </ul>
+            </div>
+            <div class="banner">
+            <!-- a>img -->
+            <a href="#"><img src="images/banner1.jpg" alt="배너2"></a>
+
+            </div>
+        </section>    
+        <section class="photo">
+            <h2 class="blind">포토갤러리</h2>
+            <a href="#"><img src="images/1.jpg" alt="이미지1"></a>
+            <a href="#"><img src="images/2.jpg" alt="이미지2"></a>
+            <a href="#"><img src="images/3.jpg" alt="이미지3"></a>
+            <a href="#"><img src="images/4.jpg" alt="이미지4"></a>
+            <a href="#"><img src="images/5.jpg" alt="이미지5"></a>
+            <a href="#"><img src="images/6.jpg" alt="이미지6"></a>
+        </section>
+        <footer>
+
+            <div class="blogo">
+                <a href="#"> 모란앵무</a>
+            </div>
+            <div class="copyright">
+            <p>
+                모란앵무 가족 : 김찬호 <br />
+                Copyright &copy; 2021  
+                <a href="mailto:Lovebird@Lovebird.co.kr">Lovebird</a> 
+                All Rights Reserved.
+            </p>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><img src="images/f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="images/y.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="images/t.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="images/b.png" alt="밴드"></a></li>
+                    <li><a href="#"><img src="images/i.png" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
